@@ -12,7 +12,7 @@ from pymongo.errors import DuplicateKeyError
 from traceback import format_exc
 from .items import City58Xiaoqu, City58ChuzuInfo
 
-
+# 管道，处理item
 class City58Pipeline(object):
     pass
 
@@ -61,7 +61,7 @@ class City58Pipeline(object):
     #         spider.logger.error(format_exc())
     #     return item
 
-
+# 管道，处理item
 class HandleZuFangPipline(object):
     pass
 
@@ -72,7 +72,7 @@ class HandleZuFangPipline(object):
     #         item['chuzu_price_pre'] = int(item['zu_price']) / int(item['mianji'])   #租金除以面积得到平均价格
     #     return item  #继续传递item
 
-
+# 管道，处理item
 class HandleFangjiaPipline(object):
     pass
 

@@ -9,7 +9,7 @@ from scrapy import signals
 
 
 class ProxyMiddle(object):
-
+    # 引入封装IP代理
     def process_request(self, request, spider):
         pass
 
